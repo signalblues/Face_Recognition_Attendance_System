@@ -1,0 +1,45 @@
+mysql -u root -p
+
+#### password root
+
+SHOW DATABASES;
+
+
+#### smartswitch is use to select switch for perticular position####
+
+CREATE DATABASE smartswitch;
+
+CREATE USER 'chetan'@'localhost' IDENTIFIED BY 'chetankj123';
+
+USE smartswitch;
+
+GRANT ALL ON smartswitch.* TO 'chetan'@'localhost';
+
+quit
+
+#### useridpassword is use to select user id and password####
+
+CREATE DATABASE useridpassword;
+CREATE USER 'chetan1'@'localhost' IDENTIFIED BY 'chetankj123';
+USE useridpassword;
+GRANT ALL ON useridpassword.* TO 'chetan1'@'localhost';
+
+
+
+###### Smart Attendance System ########
+
+CREATE DATABASE it_branch_attendabce;
+CREATE USER 'it'@'localhost' IDENTIFIED BY 'itdep';
+use it_branch_attendabce;
+GRANT ALL ON it_branch_attendabce.* TO 'it'@'localhost';
+
+
+
+
+
+
+
+
+
+
+
